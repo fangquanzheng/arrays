@@ -1,8 +1,7 @@
-var animal = ["panda","cat","sloth","pangolin","unicorn","kangaroo"]
+var animal = ["panda","cat","sloth","pangolin","unicorn","kangaroo"];
 animal.forEach(function(d){
 	var list = document.createElement("li");
-	var text = document.creatTextNode(d);
+	var text = document.createTextNode(d);
 	list.appendChild(text);
-	document.getElementsById("list").appendChild(list);			
+	document.getElementById("list").appendChild(list);			
 })
-	
