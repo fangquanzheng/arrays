@@ -1,0 +1,31 @@
+body {
+  background-color: grey;
+  width: 900px;
+  height: 800px;
+  font-family: 'Ultra', serif;
+}
+
+.header {
+  background-image: url(head.jpg);
+  width: 900px;
+  height: 200px;
+  position:relative;
+  background-color: #BFD7EA;
+  opacity: .7;
+
+}
+
+.column1, .column2 {
+  width: 294px;
+  height: 500px;
+  float: left;
+  margin: 3px;
+  border-radius: 5px;
+  background-color: rgba(137,187,254, .6);
+  opacity: .6;
+}
+
+#Table {
+  border-style: dotted;
+  border-width: 2px;
+}
